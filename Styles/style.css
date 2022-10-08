@@ -1,3 +1,7 @@
+/* ------------------- */
+/* FONTS
+/* ------------------- */
+
 @font-face {
     font-family: "RobotoLightItalic";
     src: url(./Fonts/Roboto-LightItalic.ttf) format(truetype);
@@ -22,6 +26,10 @@
     margin: 0;
     padding: 0;
 }
+
+/* ------------------- */
+/* HEADER  */
+/* ------------------- */
 
 header,
 footer,
@@ -49,6 +57,10 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
+
+/* ------------------- */
+/* SECTION 01  */
+/* ------------------- */
 
 .header-logo-text {
     width: 50%;
@@ -112,13 +124,17 @@ button:hover {
     transform: scale(1.1);
 }
 
+#section01 img {
+    width: 250px;
+}
+
 .right {
     text-align: right;
 }
 
-#section01 img {
-    width: 250px;
-}
+/* ------------------- */
+/* SECTION 02  */
+/* ------------------- */
 
 .info-text {
     margin: auto;
@@ -141,6 +157,12 @@ figure img {
     padding: 5px;
     border: #3288f6 solid 4px;
     border-radius: 10px;
+    transition: .5s;
+}
+
+figure img:hover {
+    transition: .5s;
+    transform: scale(1.05);
 }
 
 figurecaption p {
@@ -150,6 +172,10 @@ figurecaption p {
     font-weight: 600;
     color: #1F2937;
 }
+
+/* ------------------- */
+/* SECTION 03  */
+/* ------------------- */
 
 #section03 {
     padding: 100px 12%;
@@ -175,6 +201,10 @@ figurecaption p {
     font-weight: 600;
     color: #1F2937;
 }
+
+/* ------------------- */
+/* SECTION 04  */
+/* ------------------- */
 
 #section04 {
     display: flex;
@@ -203,13 +233,15 @@ figurecaption p {
 #section04 .cta-button {
     text-align: right;
     align-self: center;
-
-    border: #E5E7EB solid 1px;
 }
 
 #section04 button {
     border: solid #f9faf8 2px;
 }
+
+/* ------------------- */
+/* FOOTER  */
+/* ------------------- */
 
 footer {
     padding: 25px 0;
