@@ -80,6 +80,8 @@ nav menu {
     justify-content: right;
 }
 
+/* RESPONSIVE DROPDOWN MENU ATTEMPT */
+
 .drop-button,
 .dropdown-menu {
     display: none;
@@ -93,6 +95,8 @@ nav menu {
     background-color: #1F2937;
     box-shadow: #E5E7EB 0px 2px 5px;
 }
+
+/* -------------------------------- */
 
 #section01 {
     display: flex;
@@ -296,6 +300,8 @@ footer p {
         display: none;
     }
 
+    /* RESPONSIVE DROPDOWN MENU ATTEMPT */
+
     .drop-button {
         display: block;
         right: 6rem;
@@ -316,6 +322,8 @@ footer p {
         background-color: #1F2937;
         box-shadow: #E5E7EB 0px 2px 5px;
     } */
+
+    /* _______________________________  */
 
     #section03 {
         padding: 25px 20px;
@@ -343,10 +351,14 @@ footer p {
         display: none;
     }
 
+    /* RESPONSIVE DROPDOWN MENU ATTEMPT */
+
     .drop-button {
         right: 1.2rem;
         width: 8%;
     }
+
+    /* -------------------------------- */
 
     #section01 {
         display: block;
